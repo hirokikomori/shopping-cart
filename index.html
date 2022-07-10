@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Danon</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css" type="text/css" />
+    <link rel="stylesheet" href="sass/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="owlcarousel/carousel.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header_1">
+            <div class="row">
+                <div class="about col-sm-4 col-md-4">
+                    <ul>
+                        <li><a href="" class="subColor">THE DANONについて</a></li>
+                        <li><a href="" class="subColor">ご利用ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="freeShip col-sm-4 col-md-4 center">
+                    <ul>
+                        <li><a href="">送料無料キャンペーン開催中</a></li>
+                    </ul>
+                </div>
+                <div class="rightNav col-md-4 col-sm-4">
+                    <ul>
+                        <li><a href="" class="subColor">会員登録</a></li>
+                        <li><a href="" class="subColor">ログイン</a></li>
+                        <li><i class="fas fa-heart"></i></li>
+                        <li><i class="fas fa-shopping-cart"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cart hide">
+            <div class="overlay"></div>
+            <div class="top">
+                <button id="closeButton">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <h4 class="empty">カートの商品はありません</h4>
+            <div class="cart-items">
+<!--                 <div class="cart-row cart-column">
+                    <div class="cart-item fisrt">
+                        <img class="cart-item-image" src="images/item9.jpg" width="100" height="100">
+                    </div>
+
+                    <div class="cart-item">                   
+                    <span class="cart-item-title">ロングスリーブシャツ</span>
+                    <span class="cart-price">¥1999</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">削除する</button>
+                    </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">¥0</span>
+            </div>
+        <button class="btn-purchase checkout hide">お支払いページへ</button>
+        </div>
+        <div class="header_2">
+            <div class="row flex">
+                <div class="logo col-sm-4">
+                    <a href=""><img src="images/fashionLogo.png" alt=""></a>
+                </div>
+                <div class="category col-sm-4">
+                    <ul>
+                        <li><a href="">MENS</a></li>
+                        <li><a href="">WOMANS</a></li>
+                        <li><a href="">KIDS</a></li>
+                    </ul>
+                </div>
+                <div class="form  center col-sm-4">
+                    <input type="search" class="search" placeholder="キーワードで探す">
+                    <button type="submit" class="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="topCover">
+            <div class="owl-carousel owl-theme">
+                <div><a href=""><img src="images/top1.jpg" alt=""></a></div>
+                <div><a href=""><img src="images/top2.jpg" alt=""></a></div>
+                <div><a href=""><img src="images/top3.jpg" alt=""></a></div>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="row">
+                <div class="banner1 col-sm-6"><a href=""><img src="images/banner1.png" alt=""></a></div>
+                <div class="banner2 col-sm-6"><a href=""><img src="images/banner2.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="pickupItem">
+            <div class="title center">
+                <h2>PICK UP</h2>
+                <p>ピックアップ</p>
+            </div>
+            <div class="mycontainer">
+                <div class="row">
+                    <div class="itemsBox col-sm-12">
+                        <div class="row">
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item9.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag man">MANS</p>
+                                        <a href="" class="name shop-item-title">NAVY スリムTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item9.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag man">MANS</p>
+                                        <a href="" class="name shop-item-title">NAVY スリムTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item9.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag man">MANS</p>
+                                        <a href="" class="name shop-item-title">NAVY スリムTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item9.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag man">MANS</p>
+                                        <a href="" class="name shop-item-title">NAVY スリムTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item10.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag">UNISEX</p>
+                                        <a href="" class="name shop-item-title">BLACK ワイドTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item10.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag">UNISEX</p>
+                                        <a href="" class="name shop-item-title">BLACK ワイドTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                   <img class="shop-image" src="images/item10.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag">UNISEX</p>
+                                        <a href="" class="name shop-item-title">BLACK ワイドTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="items col-sm-3">
+                                <div class="item">
+                                  <img class="shop-image" src="images/item10.jpg">
+                                    <div class="itemTxt">
+                                        <p class="tag">UNISEX</p>
+                                        <a href="" class="name shop-item-title">BLACK ワイドTシャツ</a>
+                                        <p class="price shop-item-price">¥4780</p>
+                                        <button class="shop-item-button">
+                                        <i class="fas fa-shopping-cart"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="viewAll center">
+                <button type="button" class="btn original btn-outline-secondary btn-lg">ALL ITEMS</button>
+            </div>
+        </div>
+        <div class="type">
+            <div class="title center">
+                <h2 class="">TYPE</h2>
+                <p>タイプから探す</p>
+            </div>
+            <div class="mycontainer">
+                <div class="row">
+                    <div class="typeBox col-sm-12">
+                        <div class="row">
+                            <div class="sex man col-sm-4">
+                                <a href="">
+                                    <div class="typeImg">
+                                        <img src="images/itemmens.jpg">
+                                    </div>
+                                    <div class="typeTxt">
+                                        <p>MAN</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sex woman col-sm-4">
+                                <a href="">
+                                    <div class="typeImg">
+                                        <img src="images/itemwomens.jpg">
+                                    </div>
+                                    <div class="typeTxt">
+                                        <p>WOMAN</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sex kids col-sm-4">
+                                <a href="">
+                                    <div class="typeImg">
+                                        <img src="images/itemkids.jpg" alt="">
+                                    </div>
+                                    <div class="typeTxt">
+                                        <p>KIDS</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="typeCategory col-sm-12">
+                        <div class="row">
+                            <ul class="Group col-sm-4">
+                                <li><a href="">全商品</a></li>
+                                <li><a href="">トップス</a></li>
+                                <li><a href="">シューズ</a></li>
+                            </ul>
+                            <ul class="Group col-sm-4">
+                                <li><a href="">ショートパンツ</a></li>
+                                <li><a href="">アウター</a></li>
+                                <li><a href="">アクセサリー</a></li>
+                            </ul>
+                            <ul class="Group col-sm-4">
+                                <li><a href="">トラウザー</a></li>
+                                <li><a href="">バッグ</a></li>
+                                <li><a href="">インテリア</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    　　
+                </div>
+            </div>
+        </div>
+        <div class="bestSeller">
+            <div class="title center">
+                <h2>BEST SELLER</h2>
+                <p>売れ筋商品</p>
+            </div>
+            <div class="sexTxt">
+                <p class="man active">MENS</p>
+                <p class="woman">WOMANS</p>
+                <p class="kids">KIDS</p>
+            </div>
+            <div class="mycontainer">
+                <div class="row">
+                    <!-- mens tab -->
+                    <div class="col-md-12 col-sm-12 tab active">
+                        <div class="row topItems">
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_1"><a href=""><img src="images/item1.jpg" alt="">
+                                            <p class="rank">1</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name shop-item-title">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_2"><a href=""><img src="images/item2.jpg" alt="">
+                                            <p class="rank">2</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_3"><a href=""><img src="images/item3.jpg" alt="">
+                                            <p class="rank">3</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_4"><a href=""><img src="images/item1.jpg" alt="">
+                                            <p class="rank">4</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bottomItems">
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_5"><a href=""><img src="images/item2.jpg" alt="">
+                                            <p class="rank">5</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_6"><a href=""><img src="images/item3.jpg" alt="">
+                                            <p class="rank">6</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_7"><a href=""><img src="images/item1.jpg" alt="">
+                                            <p class="rank">7</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_8"><a href=""><img src="images/item2.jpg" alt="">
+                                            <p class="rank">8</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_9"><a href=""><img src="images/item3.jpg" alt="">
+                                            <p class="rank">9</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_10"><a href=""><img src="images/item1.jpg" alt="">
+                                            <p class="rank">10</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- mens end -->
+                    <!-- womens-->
+                    <div class="col-md-12 col-sm-12 tab">
+                        <div class="row topItems">
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_1"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">1</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_2"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">2</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_3"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">3</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_4"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">4</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">スリムフィットパンツ</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row bottomItems">
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_5"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">5</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_6"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">6</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_7"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">7</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_8"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">8</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_9"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">9</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-3 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_10"><a href=""><img src="images/item8.jpg" alt="">
+                                            <p class="rank">10</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">FLAP</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- kids tab-->
+                    <div class="col-md-12 col-sm-12 tab">
+                        <div class="row topItems">
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_1"><a href=""><img src="images/itemkids.jpg" alt="">
+                                            <p class="rank">1</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">3LAYER BIG FLAP COAT | 3レイヤービックフラップコート</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 items">
+                                <div class="item">
+                                    <div class="itemImg itemImg_2"><a href=""><img src="images/itemkids.jpg" alt="">
+                                            <p class="rank">2</p>
+                                        </a></div>
+                                    <div class="itemTxt">
+                                        <a href="" class="name">3LAYER BIG FLAP COAT | 3レイヤービックフラップコート</a>
+                                        <p class="price">¥4780</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- kids tab end -->
+                </div>
+            </div>
+        </div>
+        <!-- セットタイムアウト　モーダルウィンドウ -->
+        <div class="modal">
+            <div class="modal_container">
+                <div class="modal_box">
+                    <a href=""><img src="images/modal_banner.png" alt=""></a>
+                    <button class="close"><i class="far fa-times-circle"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="mycontainer">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-4 footer_box">
+                            <h3>CONTENTS</h3>
+                            <ul>
+                                <li><a href="">ザダノンについて</a></li>
+                                <li><a href="">ブランドサイト</a></li>
+                                <li><a href="">NEWS</a></li>
+                                <li><a href="">BLOG</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 footer_box">
+                            <h3>CATEGORY</h3>
+                            <ul>
+                                <li><a href="">メンズ</a></li>
+                                <li><a href="">ウィメンズ</a></li>
+                                <li><a href="">キッズ</a></li>
+                                <li><a href="">限定商品</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 footer_box">
+                            <h3>INFORMATION</h3>
+                            <ul>
+                                <li><a href="">会員登録</a></li>
+                                <li><a href="">ログイン</a></li>
+                                <li><a href="">カートを見る</a></li>
+                                <li><a href="">お問い合わせ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright center">
+                <p>2021 Copyright by THE DANON</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/cart.js" async></script>
+    <script type="text/javascript">
+
+
+    // タブの切り替え//
+    $(function() {
+        $('.sexTxt p').click(function() {
+            $('.active').removeClass("active");
+            $(this).addClass('active');
+            const index = $('.sexTxt p').index(this);
+            $('.tab').removeClass("active").eq(index).addClass('active');
+        })
+    });
+
+
+    // $(document).ready(function(){
+    //   setTimeout(function(){
+    //     $('.modal').addClass('open')
+    //   }, 5000);
+    // });
+
+    // $(function(){
+    //   $('button.close').click(function(){
+    //     $('.modal').removeClass('open');
+    //   });
+
+    //   $(document).click(function(event){
+    //     let target = $(event.target);
+    //     if (target.hasClass('open')){
+    //       target.removeClass('open');
+    //     };
+    // });
+    // });
+    </script>
+</body>
+
+</html>
